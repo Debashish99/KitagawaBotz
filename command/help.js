@@ -32,20 +32,20 @@ exports.allMenu = (
   balance,
   prefix
 ) => {
-  "_KitagawaMarinnBotz Botz Md by Rakarmp_";
+  "_༺Kitสgaw͢͢͢aMarinn༻ Md by ᴿᵃᵏ͢͢͢ᵃ▒RMP_";
   return `${ucapanWaktu} ${pushname !== undefined ? pushname : "Dek"}  
 ╭🅥 *STATISTICS*
 │ • Upload : ${upload}
 │ • Downloads : ${download}
-│🪀 *KitagawaMarinnBotz*
+│🪀 *༺Kitสgaw͢͢͢aMarinn༻*
 │ • Creator : ${ownerName}
 │ • Bot Name : ${botName}
 │ • Time : ${jam}
 │ • Date : ${tanggal(new Date())}
 │ • Runtime : ${runtime(process.uptime())}
-╰🪀 *USER INFO*
+╰🅥 *USER INFO*
  ❍ Name : ${pushname !== undefined ? pushname : "-"}
- ❍ Status : ${isCreator ? "Owner" : isPremium ? "Premium" : "Free"}
+ ❍ Status : ${isCreator ? "_Owner_" : isPremium ? "_Premium_" : "Free"}
  ❍ Limit : ${
    isCreator
      ? "Unlimited"
